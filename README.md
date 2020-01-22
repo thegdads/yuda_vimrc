@@ -46,4 +46,6 @@ Vim configuration for development
     syntax on
     
     map <C-n> :NERDTreeToggle<CR>
-    inoremap { {<CR>}<Esc>ko
+    inoremap { {}<Esc>i
+    inoremap ( ()<Esc>i
+    inoremap [ []<Esc>i
